@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next';
 
+import Footer from '@/components/Footer';
 import ButtonLink from '@/components/links/ButtonLink';
 import CustomLink from '@/components/links/CustomLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
 const Home: NextPage = () => {
@@ -13,31 +13,23 @@ const Home: NextPage = () => {
       <main>
         <section className='bg-black text-primary-50'>
           <div className='layout flex flex-col justify-center items-center min-h-screen text-center'>
-            <h1>Next.js + Tailwind CSS + TypeScript Starter</h1>
-            <p className='mt-2 text-sm text-primary-50'>
-              This starter is heavily inspired by{' '}
-              <CustomLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
-                this amazing starter
-              </CustomLink>
-              . I changed some stuff to fit my preference.
+            <h1>LordRonz{"'"}s Archive repository</h1>
+            <p className='mt-2 text-md text-primary-50'>
+              The purpose of this account is to store{' '}
+              <CustomLink href='https://github.com/LordRonz/'>my main account{"'"}s</CustomLink> archived repo so that it
+              doesn{"'"}t clutter the repository list.
             </p>
             <p className='mt-2 text-md text-primary-50'>
-              <CustomLink href='https://github.com/LordRonz/nextjs-starter'>See the repository</CustomLink>
+              <CustomLink href='https://github.com/orgs/lordronz-archive/repositories'>See the repositories</CustomLink>
             </p>
+
+            <p className='mt-2 text-md text-primary-50'>Below are my github accounts</p>
 
             <ButtonLink className='mt-6' href='#' variant='primary'>
               Work In Progress
             </ButtonLink>
 
-            <UnstyledLink
-              href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FLordRonz%2Fnextjs-starter'
-              className='mt-4'
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img width='92' height='32' src='https://vercel.com/button' alt='Deploy with Vercel' />
-            </UnstyledLink>
-
-            <footer className='absolute bottom-2'>© Aaron Christopher {new Date().getFullYear()}</footer>
+            <Footer />
           </div>
         </section>
       </main>
