@@ -2,11 +2,13 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 const defaultMeta = {
-  title: 'NextJS Typescript Boilerplate',
-  siteName: process.env.NEXT_PUBLIC_HOSTNAME || 'lordronz.github.io',
-  description: 'NextJS Typescript Boilerplate.',
-  url: process.env.NEXT_PUBLIC_HOSTNAME ? `https://${process.env.NEXT_PUBLIC_HOSTNAME}` : 'https://lordronz.github.io',
-  image: '/vercel.svg',
+  title: "LordRonz's archive",
+  siteName: process.env.NEXT_PUBLIC_HOSTNAME || 'lordronz-archive.github.io',
+  description: "LordRonz's archived repositories",
+  url: process.env.NEXT_PUBLIC_HOSTNAME
+    ? `https://${process.env.NEXT_PUBLIC_HOSTNAME}`
+    : 'https://lordronz-archive.github.io',
+  image: '/logo512.png',
   type: 'website',
   robots: 'follow, index',
   googlebot: 'follow, index',
