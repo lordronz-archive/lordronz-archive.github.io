@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ronz-nextjs.vercel.app/
+Host: https://lordronz-archive.github.io/
 
 # Sitemaps
-Sitemap: https://ronz-nextjs.vercel.app/sitemap.xml
+Sitemap: https://lordronz-archive.github.io/sitemap.xml
