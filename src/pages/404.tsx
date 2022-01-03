@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 
-import CustomLink from '@/components/links/CustomLink';
+import ArrowLink from '@/components/links/ArrowLink';
 import ParticleComponent from '@/components/ParticleComponent';
 import Seo from '@/components/Seo';
 
@@ -17,9 +17,9 @@ const NotFound: NextPage = () => (
           </div>
 
           <p className='text-xl text-primary-200 z-10'>
-            <CustomLink href='/' openNewTab={false}>
+            <ArrowLink href='/' openNewTab={false} direction='left'>
               Back To Home
-            </CustomLink>
+            </ArrowLink>
           </p>
         </div>
       </section>
