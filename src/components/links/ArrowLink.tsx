@@ -4,20 +4,20 @@ import * as React from 'react';
 import CustomLink from '@/components/links/CustomLink';
 import { UnstyledLinkProps } from '@/components/links/UnstyledLink';
 
-type ArrowLinkProps<C extends React.ElementType> = {
-  as?: C;
-  direction?: 'left' | 'right';
+export type ArrowLinkProps<C extends React.ElementType> = {
+  readonly as?: C;
+  readonly direction?: 'left' | 'right';
 } & UnstyledLinkProps &
   React.ComponentProps<C>;
 
-export default function ArrowLink<C extends React.ElementType>({
+const ArrowLink = <C extends React.ElementType>({
   children,
   className,
   direction = 'right',
-  as,
+  as = CustomLink,
   ...rest
-}: ArrowLinkProps<C>) {
-  const Component = as || CustomLink;
+}: ArrowLinkProps<C>) => {
+  const Component = as;
 
   return (
     <Component {...rest} className={clsx(className, 'gap-[0.25em] group', direction === 'left' && 'flex-row-reverse')}>
@@ -53,4 +53,6 @@ export default function ArrowLink<C extends React.ElementType>({
       </svg>
     </Component>
   );
-}
+};
+
+export default ArrowLink;
