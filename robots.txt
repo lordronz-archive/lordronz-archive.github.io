@@ -7,3 +7,4 @@ Host: https://lordronz-archive.github.io/
 
 # Sitemaps
 Sitemap: https://lordronz-archive.github.io/sitemap.xml
+Sitemap: https://lordronz-archive.github.io/sitemap-0.xml
