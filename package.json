@@ -26,7 +26,8 @@
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1",
     "react-tsparticles": "^2.0.6",
-    "tippy.js": "^6.3.7"
+    "tippy.js": "^6.3.7",
+    "tsparticles": "^2.0.6"
   },
   "devDependencies": {
     "@types/node": "17.0.25",
