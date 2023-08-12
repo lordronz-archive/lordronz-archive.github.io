@@ -2588,13 +2588,12 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-tsparticles@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-2.0.6.tgz#1049db562315fe5aea276e2918fe0624d3e935d6"
-  integrity sha512-+Ml33aZ5mIYUqbUYKnqF3tkEQIUGD/80NtnapNOda0WXot9d+7jHqNrEFdqX5ghZALbsF3DRvgcDmaBM306Lfg==
+react-tsparticles@^2.12.2:
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-2.12.2.tgz#679054f229650db8398a646e2bb1c4a750f2a7de"
+  integrity sha512-/nrEbyL8UROXKIMXe+f+LZN2ckvkwV2Qa+GGe/H26oEIc+wq/ybSG9REDwQiSt2OaDQGu0MwmA4BKmkL6wAWcA==
   dependencies:
-    fast-deep-equal "^3.1.3"
-    tsparticles-engine "^2.0.6"
+    tsparticles-engine "^2.12.0"
 
 react@18.2.0:
   version "18.2.0"
@@ -3020,6 +3019,11 @@ tsparticles-engine@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.0.6.tgz#27e85d8d014a2d9435ffc9a2c7efd570baf6dc64"
   integrity sha512-qsAMp68No1ncbFQbyjILrVtS9LeNTtBmxPa91COvHq4iLELReUjVxXTWfLWi0+xczTbdpNPRPx92r0V3xlqeHw==
+
+tsparticles-engine@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.12.0.tgz#4a52a8de4ab6085180abf27f4720f47caa1455fc"
+  integrity sha512-ZjDIYex6jBJ4iMc9+z0uPe7SgBnmb6l+EJm83MPIsOny9lPpetMsnw/8YJ3xdxn8hV+S3myTpTN1CkOVmFv0QQ==
 
 tsparticles-interaction-external-attract@^2.0.6:
   version "2.0.6"
